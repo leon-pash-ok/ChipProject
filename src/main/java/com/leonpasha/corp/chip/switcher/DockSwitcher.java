@@ -15,7 +15,7 @@ public class DockSwitcher {
     private List<Chip> ships = new ArrayList<>();
 
     private void init() {
-        int count = 3;
+        int count = 5;
         for (int i = 0; i < count; i ++) {
             addChip(ChipGenerator.generateChip());
         }
